@@ -53,7 +53,7 @@ Install packages:
 `npm install`
 
 Start app:  
-`node ./app.js`
+`node ./server.js`
 
 Available endpoints. 
 
