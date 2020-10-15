@@ -41,7 +41,7 @@ peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.exa
 
 
 9. Run example query
-`peer chaincode query -C mychannel -n basic -c '{"Args":["GetAllAssets"]}'`
+`peer chaincode query -C mychannel -n custom -c '{"Args":["GetAllAssets"]}'`
 
 
 ## Start the application
